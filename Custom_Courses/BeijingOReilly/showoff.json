@@ -1,0 +1,95 @@
+{
+"name": "深度学习: 用 DeepLearning4J 构建神经网络",
+    "sections": {
+
+	"欢迎来到课程": [
+	    "Introduction/01.md"
+	],
+
+	"深度学习是什么?": [
+	    "What_is_deep_learning/01.md"
+	],
+
+	"Framing the Question":
+	["Framing_the_Question/01.md"],
+
+	"神经网络的示范":
+	["Simplest_network_Lab_intro/01.md"],
+
+
+	"使用训练的用户界面 - Training UI":
+	["TrainingUI/01.md"],
+
+	"Neural Network Internals":
+	["NNInternals/01.md",
+	 "NNInternals/Activation_Functions.md",
+	 "NNInternals/Backpropagation.md",
+	 "NNInternals/Loss_Functions.md",
+	 "NNInternals/Weight_Initialization.md",
+	 "NNInternals/Data_Normalization_Standardization.md"
+	],
+
+	"调优": [
+            "Tuning/01.md"
+        ],
+
+	"神经网络的类型":
+	["Neural_Network_Types/01.md"],
+
+	"DeepLearning4J 的介绍": [
+	    "DL4J_overview/README.md",
+	    "DL4J_overview/DeepLearning4J.md",
+	    "DL4J_overview/DataVec.md",
+	    "DL4J_overview/DataVecLab.md",
+	    "DL4J_overview/ND4J.md"
+
+	],
+
+	"前馈神经网络":
+	["Neural_networks_explained/01.md"],
+
+
+	"Abalone Lab":
+	["Abalone_intro/01.md"],
+
+	"Data Ingest Case Study: Text":
+	["Data_Ingest_Case_Study_Text/01.md"],
+
+	"Introduction to Recurrent Neural Networks":
+	["Intro_to_Recurrent_Neural_Networks/01.md"],
+
+	"LSTM Character Generation of Weather Forecast Lab":
+	["Weather_Forecast_lab/01.md"],
+
+	"Convolutional Neural Networks":
+	["Convolutional_Neural_Networks/01.md"],
+
+	"Convolutional Neural Network Lab":
+	["Convolutional_Neural_Networks/Lab.md"],
+
+	"The Paths to Production": [
+            "Paths_to_production/01.md"
+        ],
+
+	"Saving Keras Models": [
+            "Saving_Keras_Models/01.md"
+        ],
+
+
+        "Importing Keras Models into DL4J": [
+            "Loading_Keras_Models_Into_DL4J/01.md"
+        ],
+
+	"Saving and Loading trained Models":
+	["Saving_Models/01.md"],
+
+	"Lab: Saving and Loading trained Models":
+	["Saving_Models/02.md"],
+
+	"Appendix":
+	["Appendix/01.md"]
+
+
+    }
+
+}
