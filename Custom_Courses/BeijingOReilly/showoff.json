@@ -6,21 +6,21 @@
 	    "Introduction/01.md"
 	],
 
-	"深度学习是什么?": [
+	"什么是深度学习?": [
 	    "What_is_deep_learning/01.md"
 	],
 
-	"Framing the Question":
+	"什么是深度神经网络？":
 	["Framing_the_Question/01.md"],
 
-	"神经网络的示范":
+	"神经网络示范":
 	["Simplest_network_Lab_intro/01.md"],
 
 
-	"使用训练的用户界面 - Training UI":
+	"Training UI-训练用户界面概述":
 	["TrainingUI/01.md"],
 
-	"Neural Network Internals":
+	"神经网络细节":
 	["NNInternals/01.md",
 	 "NNInternals/Activation_Functions.md",
 	 "NNInternals/Backpropagation.md",
@@ -33,10 +33,10 @@
             "Tuning/01.md"
         ],
 
-	"神经网络的类型":
+	"神经网络类型":
 	["Neural_Network_Types/01.md"],
 
-	"DeepLearning4J 的介绍": [
+	"DeepLearning4J介绍": [
 	    "DL4J_overview/README.md",
 	    "DL4J_overview/DeepLearning4J.md",
 	    "DL4J_overview/DataVec.md",
@@ -49,44 +49,44 @@
 	["Neural_networks_explained/01.md"],
 
 
-	"Abalone Lab":
+	"使用前馈神经网络分类鲍鱼大小分实验":
 	["Abalone_intro/01.md"],
 
-	"Data Ingest Case Study: Text":
+	"个案研究: 文本数据摄取":
 	["Data_Ingest_Case_Study_Text/01.md"],
 
-	"Introduction to Recurrent Neural Networks":
+	"循环神经网络的绍":
 	["Intro_to_Recurrent_Neural_Networks/01.md"],
 
-	"LSTM Character Generation of Weather Forecast Lab":
+	"LSTM: 天气预报文章生成实验":
 	["Weather_Forecast_lab/01.md"],
 
-	"Convolutional Neural Networks":
+	"卷积神经网络":
 	["Convolutional_Neural_Networks/01.md"],
 
-	"Convolutional Neural Network Lab":
+	"卷积神经网络实验":
 	["Convolutional_Neural_Networks/Lab.md"],
 
-	"The Paths to Production": [
+	"通往生产之路": [
             "Paths_to_production/01.md"
         ],
 
-	"Saving Keras Models": [
+	"保存Keras模型": [
             "Saving_Keras_Models/01.md"
         ],
 
 
-        "Importing Keras Models into DL4J": [
+        "把Keras模型往DL4J加载": [
             "Loading_Keras_Models_Into_DL4J/01.md"
         ],
 
-	"Saving and Loading trained Models":
+	"保存和加载模型":
 	["Saving_Models/01.md"],
 
-	"Lab: Saving and Loading trained Models":
+	"保存和加载模型实验":
 	["Saving_Models/02.md"],
 
-	"Appendix":
+	"附录":
 	["Appendix/01.md"]
 
 
