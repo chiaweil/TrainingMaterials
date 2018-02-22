@@ -2,46 +2,47 @@
 
 # 损失函数
 
-Loss functions quantify how close a given neural network is to the ideal it is training
-towards.
+
+损失函数测量正在训练的网络与理想的距离
+
 
 !SLIDE
 
 
-# The three important functions at work in machine learning optimization:
+# 机器学习优选法中3个重要函数
 
 * 参数
-  * transform input to help determine the classifications a network infers
+  * 转换输入值以确定网络推论的结果
 * 损失函数
-  * gauges correctness of output
+  * 测量预测值的正确性
 * 优化函数
-  * guides it toward the points of least error.
+  * 调优网络至最小误差
 
 !SLIDE
 
 # 损失函数
 
-* For Regression
-  * MSE(Mean Squared Error)
-  * Mean Absolute Error(MAE)
-  * Mean Squared Log Error (MSLE)
-  * Mean Absolute Percentage Error(MAPE)
+* 回归问题的误差函数
+  * 均方误差 MSE(Mean Squared Error)
+  * 平均绝对误差 Mean Absolute Error(MAE)
+  * 平均对数平方误差 Mean Squared Log Error (MSLE)
+  * 平均绝对百分比误差 Mean Absolute Percentage Error(MAPE)
 
 !SLIDE
 
-# Regression Loss Function Common Usage
+# 回归误差函数常见用法
 
-* MSLE and MAPE handle large ranges,
-  * common practice to normalize input to suitable range and use MSE or MAE
+* MSE, MAE: 常见做法是将输入值往适当范围归一化然后使用 MSE 和 MAE
+* MSLE，MAPE：  处理大范围数值
 
 !SLIDE
 
-# Loss Functions for Classification
+# 分类问题的损失函数
 
-* Hinge Loss (SVM)
-  * Hard Classification 0,1 a -1,1 classifier
-* Logistic Loss (logistic regression)
-  * Probabilities per class  
+* 铰链损失 (支持向量机)
+  * -1,1 分类器
+* 逻辑损失 (逻辑回归)
+  * Probabilities per class （dont know how to translate)
 
 
 ~~~SECTION:notes~~~

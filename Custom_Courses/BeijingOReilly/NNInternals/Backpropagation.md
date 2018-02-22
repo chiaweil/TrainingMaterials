@@ -31,7 +31,7 @@ the neural network.
 
 !SLIDE
 
-# Gradient Descent in Weight Space
+# 在权值空间的梯度下降
 
 <img src="../../resources/convex.png">
 
@@ -80,39 +80,39 @@ and use our hardware more efficiently at the same time.
 
 !SLIDE
 
-# Adapting to Changing Error
+# 适应变化的误差
 
-* Initially error will be large
-* Output more or less random
-* Two approaches
-  * Dynamic Learning Rate(Anneal the Learning Rate)
-  * Use Adaptive Optimizer
-
-
-!SLIDE
-
-# Adaptive Optimizers / Dynamic Learning Rate a Simplified View
-
-* Initially you want the network to train quickly
-  * Error is large
-  * Take Large Steps
-* As Error decreases
-  * Smaller steps are better
+* 最初误差值大
+* 输出大多数是随机的
+* 两种方法
+  * 动态学习速率
+  * 使用自适应优化器（Adaptive Optimizer）
 
 
 !SLIDE
 
-# Updater Animation
+# 自适应优化器（Adaptive Optimizer） / 动态学习速率
 
-* Thanks to Alec Radford
+* 最初网络可调以迅速训练
+  * 误差大
+  * 学习速率大以大步迈向收敛
+* 当误差减少时
+  * 适将学习速率调小
+
+
+!SLIDE
+
+# 优化期动画
+
+*  感谢 Alec Radford
 
 <img src="../resources/updater_animation.gif">
 
 
 !SLIDE
 
-# Updater Animation
+# 优化期动画
 
-* Thanks to Alec Radford
+* 感谢 Alec Radford
 
 <img src="../resources/updater_animation2.gif">

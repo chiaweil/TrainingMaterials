@@ -1,77 +1,78 @@
 !SLIDE center subsection
 
-# Weight Initialization
-
-!SLIDE
-
-# Why not initialize all weights to zero?
-
-* Nodes would never diverge
-  * All would learn the same thing
-
-!SLIDE
-
-# Solution
-
-* Randomize weights
-* Mean 0 + some randomized distribution
+# 权值初始化
 
 
 !SLIDE
 
-# Probability Distributions
+# 为何不把权值全初始化成0？
+
+* 各节点将集中学习同样的东西
+
+!SLIDE
+
+# 解决方案
+
+* 将权值随机化
+* 平均值 0 + 随机化分布
 
 
-* A specification of the stochastic structure of random variables
-* In statistics we rely on making assumptions about how the data is distributed
-	* To make inferences about the data
-* We want a formula specifying how frequent values of observations in the distribution are
-	* And how values can be taken by the points in the distribution
+!SLIDE
+
+# 概率分布
+
+
+* 随机变数的概率性结构
+* 在统计里， 我们对数据如何分布做出假设
+	* 对数据进行推断
+* 找出分布中观察值频繁程度的公式
+  * 以及怎么从分布中的点取值
+  
 ![alt text](../resources/3_line_graph.png)
 
 
 !SLIDE
 
-# Weight Initialization: The Challenge
+# 权值初始化的挑战性
 
-* Weights too small
-  * Signal shrinks as it passes through layers
-  * Becomes too small to be useful
-  * Vanishing Gradient Problem
-* Weights too large
-  * Signal Grows as it passes through Layers
-  * Becomes to large to be useful
-  * Exploding Gradient Problem
+* 权值太小
+  * 信号穿过网络层时减小
+  * 变得太小而无法使用
+  * 梯度消失
+* 全职太大
+  * 信号穿过网络层时增长
+  * 变得太大而无法使用
+  * 梯度爆炸
 
 !SLIDE
 
-# USeful Weight Distribution Techniques
+# 有效的权值分配技巧
 
-* Truncated Normal
+* 截尾正态（Truncated Normal）
 * Xavier
 * Relu
 
 
 !SLIDE
 
-# Xavier Distribution
+# Xavier 分布
 
-* Most Common
-* 0 mean and a specific variance
+* 最普通使用
+* 平均值 0 和指定的方差
   * Var(W)=1/nIn
- 
-~~~SECTION:notes~~~ 
-where W is the initialization distribution for the neuron in question, 
-and nIn is the number of neurons feeding into it. 
+
+~~~SECTION:notes~~~
+where W is the initialization distribution for the neuron in question,
+and nIn is the number of neurons feeding into it.
 The distribution used is typically Gaussian or uniform.
 ~~~ENDSECTION~~~
 
-!SLIDE 
+!SLIDE
 
-# Benefits of Xavier
+# Xavier 的好处
 
-* Xavier Enabled Full Network Training vs per-Layer Pre-Training
-* Big Breakthrough
+* Xavier 启用全面的网络训练 vs 各层预训练
+* 大突破
 
 
 
@@ -85,10 +86,7 @@ Xavier initialization was one of the big enablers of the move away from per-laye
 
 !SLIDE
 
-# Relu
+# ReLu
 
-* Relu 
-* Works well with CNN's and Relu activations
-
-
-
+* add Relu function graph
+* 与 CNN 和 ReLu 激活适合一起用

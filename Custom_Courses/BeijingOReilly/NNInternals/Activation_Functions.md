@@ -19,8 +19,8 @@
   * 控制发向连接神经元的信号
 * 输出层
   * 决定输出值
-    * 回归
     * 分群
+    * 回归
     * 等等
 
 
@@ -30,7 +30,7 @@
 
 * ReLU
   * 最近的突破
-  * 用于缺省值
+  * 作为缺省值
 * Sigmoid
   * S 型 范围 0 到 1
   * 用于缺省值
@@ -44,19 +44,18 @@
 
 !SLIDE
 
-# Activation Functions
+# 激活函数
 
 ![img](../resources/Activation-func.png)
 
 !SLIDE
 
-# Output Layer Activation
+# 输出层激活函数
 
-* Special Case
-* Goal of hidden Layer activation is to squash intermediate values
-* Goal of output Layer is to answer our question
-  * Classification = softmax
-  * regression = identity
+* 隐藏层激活函数是为了限制层间输出值
+* 输出层激活函数是为了给予预测值
+  * 分类 = Softmax 函数
+  * 回归 = 恒等函数 （Identity)
 
 ~~~SECTION:notes~~~
 
@@ -66,59 +65,54 @@ Add One Hot Encoding discussion with Classification and SoftMax
 
 !SLIDE
 
-# Output Layer Guidelines
+# 输出层指引
 
-* Classification
-  * softmax activation
-  * Negative Log Likelihood for loss Function
-  * Multi Class Cross Entropy
-* Softmax
-  * Probability Distribution over classes
-  * Outputs sum to 1.0
-* Regression
-  * Identity Activation
-  * MSE(Mean Squared Error) Loss Function
+* 分类
+  * Softmax 激活
+    * 各类的概率分布
+    * 输出值总结成1.0
+  * 损失函数 - 负对数似然函数 （Negative Log Likelihood）
+  * 多类交叉熵
+* 回归
+  * 恒等激活
+  * 均方误差(MSE) 误差函数
 
 !SLIDE
 
-# Quick Statistics Review: Probability
+# 快速统计回顾: 概率
 
-* Probability
-	* We define probability of an event E as a number always between 0 and 1
-	* In this context the value 0 infers that the event E has no chance of occurring and the value 1 means that the event E is certain to occur
-* The Canonical Coin Example
-	* Fair coin flipped, looking for heads/tails (0.5 for each side)
-	* Probability of sample space is always 1.0
-	* P( Heads ) = 0.5 every time
-
+* 概率
+  * 我们将一个事件E的概率定义为定义为在0和1之间的数字
+	* 在这定义下， 数字0表示事件E不可能发生而数字1表示事件E肯定会发生
+*  典型硬币示例
+  * 当掷硬币时，获得正面或反面的概率是0.5
+	* 样本空间的概率总结成1
 
 !SLIDE
 
 
-# Classification
+# 分类
 
-* A type of answer we can get from a model
-* Example:
-	* “Is this an image of a cat or a dog?”
-	* Binary classification
-	* Classes: { cat, dog }
-* Binary classification is where we have only 2 labels
-	* Example: { positive, negative }
-* Multi-Label Classification
-	* N number of labels
+* 预测結果是属于哪一种类别的方法
+* 例子:
+	* “这图片里的动物是猫或狗？”
+	* 二元分类 - 当只有两个标签
+	* Classes: { 猫, 狗 }， { T/F }
+* 多元分类
+	* N 个标签
 
 !SLIDE
 
 
 
-# Regression
+# 回归
 
 
-* Where we seek a continuous value output from the model
-* Example: “predict the temperature for tomorrow”
-	* Output: 75F
-* Example: “predict price of house based on square footage”
-	* Output: $250,000.00
+* 从模型输出连续价值
+* 例子: “预测明天最高温度”
+	* 输出值: 75F
+* 例子: "根据平方英尺预测房子的价格"
+	* 输出值: $250,000.00
 
 
 

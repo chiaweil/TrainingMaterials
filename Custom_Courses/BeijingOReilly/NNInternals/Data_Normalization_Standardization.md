@@ -1,36 +1,35 @@
 !SLIDE center subsection
 
-# Data Normalization and Standardization
+# 数据归一化与标准化
 
 
 !SLIDE
 
-# Why Normalize
+# 为何要归一化
 
-* Avoid large weights dominating
-* In Traditional ML
-  * Linear Regression, Logistic Regression
-  * Must Normalize
-  * Tree Based can cope with large range
-* Same reasons as weight initialization
-
-!SLIDE
-
-# Normalization
-
-* Convert to range of values 0-1
-  * Max Value becomes 1
-  * Min Value becomes 0
+* 避免大的权值施加决定性影响
+* 在传统机器学习里
+  * 线性回归, 逻辑回归必须归一化
+  * Tree Based可以应对大范围树值
+* 与权值初始化同原因
 
 !SLIDE
 
-# Standardization
+# 归一化
 
-* More Common
-* Convert Values to 
-  * mean 0
-  * Standard Deviation of 1
-  
+* 将数值的范围限于 0-1
+  * 最大值成 1
+  * 最小值成 0
+
+!SLIDE
+
+# 标准化
+
+* 最普遍
+* 将数值转换成
+  * 平均值 0
+  * 标准偏差 1
+
 
 
 ~~~SECTION:notes~~~
