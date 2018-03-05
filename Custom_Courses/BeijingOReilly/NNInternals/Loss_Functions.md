@@ -70,14 +70,14 @@ between the output values.
 
 !SLIDE
 
-# Negative Log Likelihood
+# 负对数似然函数
 
-* Likelihood
-  * between 0 and 1
-* Log likelihood
-  * between negative infinity and 0
-* Negative log Likelihood
-  * between 0 and infinity
+* 似然值
+  * 在0和1之间
+* 对数似然函数值
+  * 在负无穷和0之间
+* 负对数似然函数值
+  * 在0和无穷之间
 
 
 ~~~SECTION:notes~~~
