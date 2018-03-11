@@ -1,10 +1,32 @@
 {
-"name": "深度学习: 用 DeepLearning4J 构建神经网络",
+"name": "深度学习: 用DeepLearning4J与SKIL构建神经网络",
     "sections": {
 
-	"欢迎来到课程": [
+	"欢迎来到培训课程": [
 	    "Introduction/01.md"
 	],
+
+  "机器学习回顾": [
+      "MachineLearning/01.md"
+  ],
+
+  "什么是深度学习": [
+	    "do this here - 神经网络与机器学习的比较 - refer to previous "
+	],
+
+  "DeepLearning4J介绍": [
+      ""
+  ],
+
+  "SKIL介绍": [
+      ""
+  ],
+
+  "深度神经网络类型": [
+      ""
+  ],
+
+
 
 	"什么是深度学习?": [
 	    "What_is_deep_learning/01.md"
