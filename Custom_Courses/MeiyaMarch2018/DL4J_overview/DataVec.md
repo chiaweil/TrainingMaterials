@@ -222,15 +222,17 @@ dataIter.setPreProcessor(scaler);
 # DataVec 代码讲解
 
 * RecordReader recordReader = new CSVRecordReader(numLinesToSkip,delimiter);
-	* A RecordReader prepares a list of Writables
-	* A Writable is an efficient Serialization format
-* DataSetIterator iterator = new RecordReaderDataSetIterator
-	* We are in DL4J know, with DataSetIterator
-	* Builds an Iterator over the list of records
-* DataSet allData = iterator.next();
-	* Builds a DataSet
-	* INDArray of Features, INDArray of Labels
 
+	* RecordReader准备一个列表的Writable
+	* Writable是一种高效的序列化格式
+
+* DataSetIterator iterator = new RecordReaderDataSetIterator
+
+	* 在记录列表上构建一个迭代器(Iterator)
+
+* DataSet allData = iterator.next();
+	* 构建一个数据集(DataSet)
+  * 特征， 标记在存在各自INDArray里
 
 !SLIDE
 

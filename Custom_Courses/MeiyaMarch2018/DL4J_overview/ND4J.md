@@ -8,17 +8,15 @@
 	* 多平台功能包括GPU
 	* 线性代数和信号处理函数
 
-
-
 !SLIDE
 
 # ND4J与DeepLearning
 
 *  经常使用的类
 	* DataSet
-	  * INDArrays的容器， INDArrays装有特征/标记
+	  * 存有INDArrays的容器， INDArrays里存着特征，标记
 	* DataSetIterator
-	 * 从RecordReader构建DataSet
+	 * 从RecordReader格式通过DataSetIterator构建DataSet
 
 !SLIDE
 

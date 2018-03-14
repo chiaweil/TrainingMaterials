@@ -10,22 +10,21 @@
       "MachineLearning/01.md"
   ],
 
-  "什么是深度学习": [
-	    "do this here - 神经网络与机器学习的比较 - refer to previous "
+  "神经网络，深度网络基础":
+  [
+    "NeuralNetworksIntro/01.md"
 	],
 
-  "DeepLearning4J介绍": [
-      ""
-  ],
-
+  "DeepLearning4J架构": [
+	    "DL4J_overview/README.md",
+	    "DL4J_overview/DeepLearning4J.md",
+	    "DL4J_overview/DataVec.md",
+	    "DL4J_overview/ND4J.md"
+	],
+  
   "SKIL介绍": [
       ""
   ],
-
-  "深度神经网络类型": [
-      ""
-  ],
-
 
 
 	"什么是深度学习?": [
@@ -34,6 +33,9 @@
 
 	"什么是深度神经网络？":
 	["Framing_the_Question/01.md"],
+
+
+
 
 	"神经网络示范":
 	["Simplest_network_Lab_intro/01.md"],
@@ -58,14 +60,7 @@
 	"神经网络类型":
 	["Neural_Network_Types/01.md"],
 
-	"DeepLearning4J介绍": [
-	    "DL4J_overview/README.md",
-	    "DL4J_overview/DeepLearning4J.md",
-	    "DL4J_overview/DataVec.md",
-	    "DL4J_overview/DataVecLab.md",
-	    "DL4J_overview/ND4J.md"
 
-	],
 
 	"前馈神经网络":
 	["Neural_networks_explained/01.md"],

@@ -1,6 +1,6 @@
 !SLIDE center subsection
 
-# DeepLearning4J 概述
+# DeepLearning4J概述
 
 
 !SLIDE
