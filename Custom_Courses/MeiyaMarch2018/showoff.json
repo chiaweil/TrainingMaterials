@@ -21,9 +21,18 @@
 	    "DL4J_overview/DataVec.md",
 	    "DL4J_overview/ND4J.md"
 	],
-  
-  "SKIL介绍": [
-      ""
+
+  "SKIL介绍":
+  [
+      "SKIL/01.md"
+  ],
+
+  "前馈神经网络":
+	["ForwardNN/01.md"],
+
+
+  "YOLO 理论知识":
+  ["YOLO/01.md"
   ],
 
 
@@ -33,9 +42,6 @@
 
 	"什么是深度神经网络？":
 	["Framing_the_Question/01.md"],
-
-
-
 
 	"神经网络示范":
 	["Simplest_network_Lab_intro/01.md"],
@@ -52,6 +58,8 @@
 	 "NNInternals/Weight_Initialization.md",
 	 "NNInternals/Data_Normalization_Standardization.md"
 	],
+
+
 
 	"调优": [
             "Tuning/01.md"
