@@ -39,8 +39,13 @@
   "YOLO 理论知识":
   [
     "YOLO/01.md"
-  ]
+  ],
 
+
+  "YOLO SKIL":
+  [
+    "yoloSkil/01.md"
+  ]
 
   }
 
